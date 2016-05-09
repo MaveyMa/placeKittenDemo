@@ -1,0 +1,64 @@
+/*
+THIS IS A COMMENT FOR CASCADING STYLE SHEET
+# == ID SELECTOR
+. == CLASS SELECTOR
+*/
+
+head {
+	font-family: 'Open Sans', sans-serif;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+
+	/*
+	>Keeps proportions when window is resized.
+	>linear-gradient keeps a dark filter over the background
+	1 is black to 0 is transparent
+	>Different browsers compatibility
+	*/
+	background: 
+	linear-gradient(
+		rgba(0, 0, 0, .7),
+		rgba(0, 0, 0, .7)
+	), 
+	url("../images/catWallpaper.jpeg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+	text-align: center;
+}
+
+#catIpsum {
+	font-size: 20px;
+}
+
+#loremIpsum {
+	font-size: 10px;
+	color: white;
+	margin-top: 0px;
+}
+
+.copyPasta {
+	color: aquamarine;
+	margin: 20px;
+	padding: 10px;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: violet;
+}
+
+button {
+	margin: 0 auto;
+	background: #2F2E2E;
+	height: 50px;
+}
+
+.btn {
+	color: #cc0000;
+	font-weight: 800;
+	font-size: 24px;
+	margin: 5px;
+}
