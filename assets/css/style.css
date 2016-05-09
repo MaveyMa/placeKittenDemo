@@ -16,7 +16,7 @@ body {
 	>linear-gradient keeps a dark filter over the background
 	1 is black to 0 is transparent
 	>Different browsers compatibility
-	*/
+	
 	background: 
 	linear-gradient(
 		rgba(0, 0, 0, .7),
@@ -29,6 +29,8 @@ body {
 	background-size: cover;
 	color: white;
 	text-align: center;
+	*/
+	margin: 20px;
 }
 
 #catIpsum {
@@ -47,6 +49,7 @@ body {
 	padding: 10px;
 	border-style: solid;
 	border-width: 0.5px;
+	font
 	border-color: violet;
 }
 
@@ -57,7 +60,7 @@ button {
 }
 
 .btn {
-	color: #cc0000;
+	color: #91E882;
 	font-weight: 800;
 	font-size: 24px;
 	margin: 5px;
